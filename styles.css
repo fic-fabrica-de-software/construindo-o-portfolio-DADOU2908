@@ -3,14 +3,20 @@
 body{
     background-color: black;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #minha__img{
-    width: 200px;
+    width: 400px;
+    border-style: solid;
+    border-color: rgb(17, 0, 255);
+    border-radius: 100%;
 }
 
 .imgs{
-    width: 400px;
+    width: 470px;
+    border-radius: 80px;
 }
 
 #display__imgs{
@@ -21,9 +27,21 @@ body{
 
 #eduardo{
     color: rgb(0, 149, 255); 
-    
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 250px;
 }
 
 strong{
     color: rgb(17, 0, 255); 
+}
+
+#titulo{
+    width: 800px;
+    font-size: 60px;
+}
+
+.icons{
+    display: flex;
+    justify-content: column;
 }
