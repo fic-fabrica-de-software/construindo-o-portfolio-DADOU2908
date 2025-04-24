@@ -41,7 +41,12 @@ strong{
     font-size: 60px;
 }
 
-.icons{
+.redes{
     display: flex;
     justify-content: column;
+    align-items: center;
+}
+
+.icons{
+    width: 80px;
 }
